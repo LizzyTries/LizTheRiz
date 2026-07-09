@@ -15,35 +15,50 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch wishlist data from Steam
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 --break-system-packages
+
+      - name: Fetch wishlist data from Steam page
         run: |
-          curl -s -L \
-            -H "Accept: application/json, text/javascript, */*; q=0.01" \
-            -H "Accept-Language: en-US,en;q=0.9" \
-            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
-            -H "Referer: https://store.steampowered.com/wishlist/profiles/76561199091154546/" \
-            -H "X-Requested-With: XMLHttpRequest" \
-            --cookie "birthtime=-1; wants_mature_content=1; lastagecheckage=1-0-1990" \
-            "https://store.steampowered.com/wishlist/profiles/76561199091154546/wishlistdata/?p=0" \
-            -o wishlist-data.json
+          python3 << 'EOF'
+          import requests, re, json, sys
 
-          echo "--- First 300 chars of response ---"
-          head -c 300 wishlist-data.json
-          echo ""
+          STEAM_ID = '76561199091154546'
+          headers = {
+              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+              'Accept-Language': 'en-US,en;q=0.9',
+          }
 
-          python3 -c "
-          import json, sys
-          try:
-              data = json.load(open('wishlist-data.json'))
-              count = sum(1 for k in data if k != 'success')
-              print(f'SUCCESS: Fetched {count} wishlist items')
-          except Exception as e:
-              print(f'ERROR parsing JSON: {e}')
-              print('Steam likely returned HTML instead of JSON.')
-              print('The wishlist may need to be set to Public in Steam privacy settings,')
-              print('or Steam is blocking unauthenticated server requests.')
+          # Fetch the public wishlist page
+          url = f'https://store.steampowered.com/wishlist/profiles/{STEAM_ID}/'
+          resp = requests.get(url, headers=headers, timeout=15)
+          print(f'HTTP {resp.status_code} — {len(resp.text)} bytes')
+
+          if resp.status_code != 200:
+              print('ERROR: Could not fetch wishlist page')
               sys.exit(1)
-          "
+
+          html = resp.text
+
+          # Steam embeds wishlist data as: var g_rgAppInfo = {...};
+          match = re.search(r'var g_rgAppInfo\s*=\s*({.*?});\s*\n', html, re.DOTALL)
+          if not match:
+              # Try alternate variable name used in newer Steam layouts
+              match = re.search(r'"wishlist_data"\s*:\s*({.*?})\s*[,}]', html, re.DOTALL)
+
+          if not match:
+              print('ERROR: Could not find wishlist data in page source.')
+              print('First 500 chars of page:')
+              print(html[:500])
+              sys.exit(1)
+
+          data = json.loads(match.group(1))
+          count = len(data)
+          print(f'SUCCESS: Found {count} wishlist items')
+
+          with open('wishlist-data.json', 'w') as f:
+              json.dump(data, f)
+          EOF
 
       - name: Commit updated wishlist data
         run: |
