@@ -1,0 +1,144 @@
+/* =============================================
+   GAME VAULT — responsive.css
+   ============================================= */
+
+/* ---- Tablet (≤1024px) ---- */
+@media (max-width: 1024px) {
+  #hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    min-height: auto;
+    padding-bottom: 60px;
+  }
+
+  .hero-content {
+    align-items: center;
+    padding: 100px clamp(24px, 6vw, 64px) 32px;
+  }
+
+  .hero-subtitle { max-width: 560px; }
+  .hero-actions { justify-content: center; }
+  .hero-stats { justify-content: center; }
+
+  .hero-featured {
+    padding: 0 clamp(24px, 6vw, 64px) 60px;
+  }
+  .featured-card { max-width: 420px; margin: 0 auto; }
+
+  .about-wrap {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 32px;
+  }
+  .about-avatar { display: flex; justify-content: center; }
+  .about-content { align-items: center; }
+  .about-bio { text-align: left; }
+  .about-tags { justify-content: center; }
+
+  .calc-wrap {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+  .calc-visual { justify-content: center; }
+  .calc-row { justify-content: space-between; }
+
+  .stats-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ---- Mobile (≤768px) ---- */
+@media (max-width: 768px) {
+  :root { --nav-height: 56px; }
+
+  /* Nav */
+  .nav-links { display: none; }
+  .nav-right { display: none; }
+  .nav-hamburger { display: flex; }
+  .nav-mobile { display: flex; }
+  .nav-mobile.open { display: flex; }
+  .nav-mobile:not(.open) { display: none; }
+
+  /* Hero */
+  .hero-title { font-size: clamp(2.8rem, 14vw, 5rem); }
+  .hero-stats { flex-wrap: wrap; gap: 16px; justify-content: center; }
+  .hero-stat-divider { display: none; }
+
+  /* Stats */
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .genre-chart { overflow-x: auto; }
+  .genre-bar-row { grid-template-columns: 90px 1fr 36px; }
+
+  /* Controls */
+  .controls { padding: 16px; }
+  .filter-row { flex-direction: column; align-items: stretch; }
+  .sort-select { width: 100%; }
+  .genre-filters { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; }
+  .genre-filters::-webkit-scrollbar { height: 2px; }
+  .genre-filters::-webkit-scrollbar-thumb { background: var(--glass-border); }
+
+  /* Game grid */
+  .game-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+
+  /* Sale grid */
+  .sale-grid { grid-template-columns: 1fr; }
+
+  /* Calculator */
+  .calc-wrap { padding: 32px 20px; }
+  .calc-visual { display: none; } /* hide donut on small screens */
+
+  /* About */
+  .about-wrap { padding: 32px 20px; gap: 24px; }
+
+  /* Sections */
+  #stats, #wishlist, #on-sale, #calculator, #about { padding: 60px 0; }
+
+  /* Footer */
+  .footer-inner { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .footer-note { flex: none; }
+
+  /* Modal */
+  .modal-overlay { padding: 12px; align-items: flex-end; }
+  .modal { border-radius: var(--radius-lg) var(--radius-lg) 0 0; max-height: 85vh; }
+  .modal-meta { grid-template-columns: 1fr; }
+  .modal-actions { flex-direction: column; }
+
+  /* Mouse glow off on touch */
+  #mouse-glow { display: none; }
+  body { cursor: auto; }
+}
+
+/* ---- Small mobile (≤480px) ---- */
+@media (max-width: 480px) {
+  .hero-title { font-size: clamp(2.4rem, 16vw, 3.5rem); }
+  .stats-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .stat-card { padding: 20px 16px; }
+  .game-grid { grid-template-columns: 1fr; }
+  .section-title { font-size: 1.6rem; }
+  .hero-actions { flex-direction: column; width: 100%; }
+  .hero-actions .btn-primary,
+  .hero-actions .btn-outline { justify-content: center; }
+}
+
+/* ---- Large screens (≥1400px) ---- */
+@media (min-width: 1400px) {
+  .game-grid { grid-template-columns: repeat(4, 1fr); }
+  .stats-grid { grid-template-columns: repeat(6, 1fr); }
+}
+
+/* ---- Motion reduced ---- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  #ember-canvas { display: none; }
+  .floating { animation: none; }
+  .scroll-arrow { animation: none; }
+  #loading-screen { display: none !important; }
+}
+
+/* ---- High-DPI / Retina ---- */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .game-card { backface-visibility: hidden; }
+}

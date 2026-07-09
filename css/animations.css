@@ -1,0 +1,249 @@
+/* =============================================
+   GAME VAULT — animations.css
+   ============================================= */
+
+/* ---------- Intro / reveal animations ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+}
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-32px);
+}
+.reveal-left.revealed {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(32px);
+}
+.reveal-right.revealed {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.92);
+}
+.reveal-scale.revealed {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.6s cubic-bezier(0.4,0,0.2,1), transform 0.6s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* ---------- Staggered children ---------- */
+.stagger-children > * {
+  opacity: 0;
+  transform: translateY(24px);
+}
+.stagger-children.revealed > *:nth-child(1) { animation: staggerIn 0.5s cubic-bezier(0.4,0,0.2,1) 0.00s forwards; }
+.stagger-children.revealed > *:nth-child(2) { animation: staggerIn 0.5s cubic-bezier(0.4,0,0.2,1) 0.08s forwards; }
+.stagger-children.revealed > *:nth-child(3) { animation: staggerIn 0.5s cubic-bezier(0.4,0,0.2,1) 0.16s forwards; }
+.stagger-children.revealed > *:nth-child(4) { animation: staggerIn 0.5s cubic-bezier(0.4,0,0.2,1) 0.24s forwards; }
+.stagger-children.revealed > *:nth-child(5) { animation: staggerIn 0.5s cubic-bezier(0.4,0,0.2,1) 0.32s forwards; }
+.stagger-children.revealed > *:nth-child(6) { animation: staggerIn 0.5s cubic-bezier(0.4,0,0.2,1) 0.40s forwards; }
+.stagger-children.revealed > *:nth-child(n+7) { animation: staggerIn 0.5s cubic-bezier(0.4,0,0.2,1) 0.48s forwards; }
+
+@keyframes staggerIn {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- Hero line animation ---------- */
+.hero-line {
+  display: block;
+  overflow: hidden;
+}
+.hero-line-inner {
+  display: block;
+  transform: translateY(110%);
+  animation: slideUp 0.8s cubic-bezier(0.4,0,0.2,1) forwards;
+}
+.hero-line:nth-child(2) .hero-line-inner {
+  animation-delay: 0.12s;
+}
+
+@keyframes slideUp {
+  to { transform: translateY(0); }
+}
+
+/* ---------- Floating animation (featured card) ---------- */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-12px); }
+}
+.floating {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* ---------- Glow pulse ---------- */
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 20px var(--crimson-glow); }
+  50%       { box-shadow: 0 0 40px rgba(192,57,43,0.5); }
+}
+.glow-pulse {
+  animation: glowPulse 2.5s ease-in-out infinite;
+}
+
+/* ---------- Scroll arrow bounce ---------- */
+@keyframes scrollBounce {
+  0%, 100% { transform: rotate(45deg) translateY(0); opacity: 0.6; }
+  50%       { transform: rotate(45deg) translateY(6px); opacity: 1; }
+}
+.scroll-arrow {
+  animation: scrollBounce 1.8s ease-in-out infinite;
+}
+
+/* ---------- Stat number count-up ---------- */
+.stat-num { transition: color 0.3s ease; }
+.stat-card:hover .stat-num { color: var(--crimson-light); }
+
+/* ---------- Loading screen exit ---------- */
+@keyframes fadeOutUp {
+  to { opacity: 0; transform: translateY(-24px); pointer-events: none; }
+}
+#loading-screen.exit {
+  animation: fadeOutUp 0.6s cubic-bezier(0.4,0,0.2,1) 0.2s forwards;
+}
+
+/* ---------- Card tilt (via JS inline transforms) ---------- */
+.game-card {
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+.game-card .card-tilt-shine {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-md);
+  background: radial-gradient(circle at var(--mx,50%) var(--my,50%), rgba(255,255,255,0.08) 0%, transparent 60%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+  z-index: 10;
+}
+.game-card:hover .card-tilt-shine { opacity: 1; }
+
+/* ---------- Neon flicker (rare ambient) ---------- */
+@keyframes neonFlicker {
+  0%, 100% { opacity: 1; }
+  92%       { opacity: 1; }
+  93%       { opacity: 0.4; }
+  94%       { opacity: 1; }
+  96%       { opacity: 0.5; }
+  97%       { opacity: 1; }
+}
+.neon-flicker {
+  animation: neonFlicker 6s ease-in-out infinite;
+}
+
+/* ---------- Parallax layers (set via JS) ---------- */
+.parallax-slow  { will-change: transform; }
+.parallax-mid   { will-change: transform; }
+.parallax-fast  { will-change: transform; }
+
+/* ---------- Modal enter ---------- */
+@keyframes modalIn {
+  from { opacity: 0; transform: scale(0.92) translateY(16px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+.modal-overlay:not(.hidden) .modal {
+  animation: modalIn 0.3s cubic-bezier(0.4,0,0.2,1) forwards;
+}
+@keyframes overlayIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.modal-overlay:not(.hidden) {
+  animation: overlayIn 0.2s ease forwards;
+}
+
+/* ---------- Game card pop-in stagger ---------- */
+.game-card.card-enter {
+  opacity: 0;
+  transform: translateY(20px) scale(0.96);
+}
+.game-card.card-enter-active {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: opacity 0.4s cubic-bezier(0.4,0,0.2,1), transform 0.4s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* ---------- Donut ring animation ---------- */
+#donut-progress {
+  transition: stroke-dashoffset 1.2s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* ---------- Hero background parallax shift ---------- */
+.hero-bg-gradient {
+  will-change: transform;
+}
+
+/* ---------- Nav link underline ---------- */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 14px;
+  right: 14px;
+  height: 1px;
+  background: var(--crimson);
+  transform: scaleX(0);
+  transition: transform var(--transition-fast);
+}
+.nav-link.active::after,
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* ---------- Stat card shimmer on hover ---------- */
+@keyframes shimmerSweep {
+  0%   { transform: translateX(-100%) rotate(25deg); }
+  100% { transform: translateX(200%) rotate(25deg); }
+}
+.stat-card {
+  overflow: hidden;
+  position: relative;
+}
+.stat-card::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 40%;
+  height: 200%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.04), transparent);
+  transform: rotate(25deg);
+  pointer-events: none;
+}
+.stat-card:hover::after {
+  animation: shimmerSweep 0.6s ease forwards;
+}
+
+/* ---------- Sale card accent line ---------- */
+.sale-card { overflow: hidden; }
+.sale-card::before {
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0; left: 0;
+  width: 3px;
+  background: var(--crimson);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform var(--transition-normal);
+}
+.sale-card { position: relative; }
+.sale-card:hover::before { transform: scaleY(1); }
