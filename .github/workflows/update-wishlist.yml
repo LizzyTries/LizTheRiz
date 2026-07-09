@@ -18,18 +18,30 @@ jobs:
       - name: Fetch wishlist data from Steam
         run: |
           curl -s -L \
-            -H "Accept: application/json" \
-            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
+            -H "Accept: application/json, text/javascript, */*; q=0.01" \
+            -H "Accept-Language: en-US,en;q=0.9" \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
+            -H "Referer: https://store.steampowered.com/wishlist/profiles/76561199091154546/" \
+            -H "X-Requested-With: XMLHttpRequest" \
+            --cookie "birthtime=-1; wants_mature_content=1; lastagecheckage=1-0-1990" \
             "https://store.steampowered.com/wishlist/profiles/76561199091154546/wishlistdata/?p=0" \
             -o wishlist-data.json
+
+          echo "--- First 300 chars of response ---"
+          head -c 300 wishlist-data.json
+          echo ""
+
           python3 -c "
           import json, sys
           try:
               data = json.load(open('wishlist-data.json'))
               count = sum(1 for k in data if k != 'success')
-              print(f'Fetched {count} wishlist items')
+              print(f'SUCCESS: Fetched {count} wishlist items')
           except Exception as e:
-              print(f'ERROR: {e}')
+              print(f'ERROR parsing JSON: {e}')
+              print('Steam likely returned HTML instead of JSON.')
+              print('The wishlist may need to be set to Public in Steam privacy settings,')
+              print('or Steam is blocking unauthenticated server requests.')
               sys.exit(1)
           "
 
