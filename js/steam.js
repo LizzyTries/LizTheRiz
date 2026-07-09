@@ -10,6 +10,7 @@ window.Steam = (function () {
   // ---- Configuration ---- //
   // Set your 64-bit Steam ID here (find it at steamid.io)
   const STEAM_ID = '76561199091154546';
+  
 
   // CORS proxy options (uncomment one that works for you, or self-host)
   // Option 1: Steam's own wishlist JSON endpoint (works if Steam allows it)
