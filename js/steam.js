@@ -15,7 +15,7 @@ window.Steam = (function () {
   // CORS proxy options (uncomment one that works for you, or self-host)
   // Option 1: Steam's own wishlist JSON endpoint (works if Steam allows it)
   // Option 2: Use a free CORS proxy
-  const WISHLIST_URL = `https://store.steampowered.com/wishlist/profiles/${STEAM_ID}/wishlistdata/?p=0&v=`;
+  const WISHLIST_URL = `https://store.steampowered.com/wishlist/id/lizzytries/`;
 
   // Fallback demo games if the Steam API is unavailable
   const DEMO_GAMES = [
