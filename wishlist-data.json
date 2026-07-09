@@ -193,7 +193,7 @@
   },
   "3722330": {
     "name": "Shift At Midnight",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3722330/header.jpg",
+    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/90ea350774a569efde303522f7d377514fdc104d/header.jpg?t=1780956728",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3722330/page_bg_generated_v6b.jpg",
     "desc": "Clock in. Clock out. Survive the night. A retro-styled co-op horror game set in a haunted workplace where every shift could be your last.",
     "tags": {
@@ -212,7 +212,7 @@
   },
   "2661300": {
     "name": "Grounded 2",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2661300/header.jpg",
+    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/c4fc47c7e6ece14e438f0957d066dc9ab2a3412a/header.jpg?t=1776193476",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2661300/page_bg_generated_v6b.jpg",
     "desc": "The backyard survival adventure continues. Shrunk once again, explore a brand new environment teeming with insects, craft powerful gear, build impressive bases, and survive alone or with friends.",
     "tags": {
@@ -644,7 +644,7 @@
   },
   "3949040": {
     "name": "RV There Yet?",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3949040/header.jpg",
+    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1778071815",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3949040/page_bg_generated_v6b.jpg",
     "desc": "Load up the RV and hit the road. A cozy road-trip simulation game full of quirky characters, roadside attractions, and unexpected detours.",
     "tags": {
@@ -740,7 +740,7 @@
   },
   "2947440": {
     "name": "SILENT HILL f",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2947440/header.jpg",
+    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/7e5d923ac622bd1775ebc9b5d4b5b0a24bf5ed40/header.jpg?t=1770169624",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2947440/page_bg_generated_v6b.jpg",
     "desc": "A brand new chapter in the legendary Silent Hill series. Set in 1960s Japan, experience a haunting psychological horror story unlike anything the franchise has seen before.",
     "tags": {
@@ -812,7 +812,7 @@
   },
   "4026510": {
     "name": "Lucid Falls",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4026510/header.jpg",
+    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026510/3eebaa32b4a1384b93e671b47b8063316193ca1e/header.jpg?t=1781543252",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/4026510/page_bg_generated_v6b.jpg",
     "desc": "An upcoming 3D exploration and action-adventure game. More details to come.",
     "tags": {
@@ -999,7 +999,7 @@
   },
   "4171850": {
     "name": "Trees Hate You",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4171850/header.jpg",
+    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4171850/5c756f8f68fae18223a977d1cf148609d00c02aa/header.jpg?t=1781129270",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/4171850/page_bg_generated_v6b.jpg",
     "desc": "A dark comedy where the trees have had enough. Parody, memes, and mayhem collide in this hilariously absurd game where nature fights back.",
     "tags": {
@@ -1018,7 +1018,7 @@
   },
   "4285690": {
     "name": "Airport Security Sucks!",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4285690/header.jpg",
+    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4285690/83c3f74745f699f49074f3e37b3795ded1ecc841/header.jpg?t=1780708975",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/4285690/page_bg_generated_v6b.jpg",
     "desc": "A chaotic multiplayer social deduction game set at airport security. Use your voice to argue, deceive, and smuggle your way through \u2014 or catch the ones who are.",
     "tags": {
@@ -1030,8 +1030,8 @@
     },
     "subs": [
       {
-        "discount_pct": 0,
-        "price": 799
+        "discount_pct": 38,
+        "price": 495
       }
     ],
     "is_free_game": false,
@@ -1042,7 +1042,7 @@
   },
   "3976500": {
     "name": "The Spotter: Dig or Die",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3976500/header.jpg",
+    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3976500/b7643f719fdf50fcf16d92593e56b6c830f9a4f3/header_alt_assets_1.jpg?t=1782894307",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3976500/page_bg_generated_v6b.jpg",
     "desc": "Dig deep, build defenses, and survive the zombie hordes. A mining tower defense sandbox where every dig could be your salvation \u2014 or your grave.",
     "tags": {
@@ -1055,7 +1055,7 @@
     "subs": [
       {
         "discount_pct": 0,
-        "price": 1104
+        "price": 1299
       }
     ],
     "is_free_game": false,
@@ -1066,7 +1066,7 @@
   },
   "4317790": {
     "name": "Last Pirates: Die Together",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4317790/header.jpg",
+    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4317790/1d46cbde0bf2ac91b6d11d4b53768b45e1b42f55/header.jpg?t=1783079406",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/4317790/page_bg_generated_v6b.jpg",
     "desc": "A co-op first-person horror game with pirates, laughs, and lots of dying. Sail, scavenge, and survive with friends in this chaotic Early Access horror comedy.",
     "tags": {
@@ -1109,7 +1109,7 @@
   },
   "2956680": {
     "name": "LORT",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2956680/header.jpg",
+    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2956680/fe35f7df77eec6a5432a3ff25d5f2bff49d25f7c/header.jpg?t=1783605169",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2956680/page_bg_generated_v6b.jpg",
     "desc": "A co-op action roguelike shooter. Fight your way through procedurally generated chaos with friends in this fast-paced Early Access multiplayer brawler.",
     "tags": {
@@ -1133,7 +1133,7 @@
   },
   "4187140": {
     "name": "Don't Panic! It is Just Turbulence",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4187140/header.jpg",
+    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4187140/c4a129e4e5c32ab8933eec6045b92d550754da40/header.jpg?t=1780587338",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/4187140/page_bg_generated_v6b.jpg",
     "desc": "A chaotic multiplayer game set on a turbulent plane ride. Keep calm, help (or hinder) your fellow passengers, and try not to make things worse. No guarantees.",
     "tags": {
@@ -1157,7 +1157,7 @@
   },
   "3834090": {
     "name": "YAPYAP",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3834090/header.jpg",
+    "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3834090/399b7aa5bd9ea359e6d77cec3032758ea27c597b/header.jpg?t=1775943797",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3834090/page_bg_generated_v6b.jpg",
     "desc": "A chaotic online co-op horror game with magic and comedy. Cast spells, scream at your friends, and somehow survive the supernatural together.",
     "tags": {
