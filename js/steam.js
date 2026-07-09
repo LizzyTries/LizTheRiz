@@ -10,12 +10,10 @@ window.Steam = (function () {
   // ---- Configuration ---- //
   // Set your 64-bit Steam ID here (find it at steamid.io)
   const STEAM_ID = '76561199091154546';
-  
 
-  // CORS proxy options (uncomment one that works for you, or self-host)
-  // Option 1: Steam's own wishlist JSON endpoint (works if Steam allows it)
-  // Option 2: Use a free CORS proxy
-  const WISHLIST_URL = `https://store.steampowered.com/wishlist/profiles/${STEAM_ID}/wishlistdata/?p=0&v=`;
+
+  // Steam wishlist JSON data endpoint — uses numeric Steam ID for reliability
+  const WISHLIST_URL = `https://store.steampowered.com/wishlist/profiles/${STEAM_ID}/wishlistdata/?p=0`;
 
   // Fallback demo games if the Steam API is unavailable
   const DEMO_GAMES = [
@@ -345,36 +343,51 @@ window.Steam = (function () {
       return normalizeDemoGames();
     }
 
-    try {
-      // Try fetching via a CORS proxy
-      const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(WISHLIST_URL)}`;
-      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(8000) });
+    // Multiple CORS proxies to try in order
+    const PROXIES = [
+      url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+      url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+      url => `https://thingproxy.freeboard.io/fetch/${url}`,
+    ];
 
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
+    let lastErr = null;
+    for (const makeProxy of PROXIES) {
+      try {
+        const proxyUrl = makeProxy(WISHLIST_URL);
+        console.log('[Steam] Trying proxy:', proxyUrl);
+        const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(10000) });
 
-      if (!data || typeof data !== 'object') throw new Error('Invalid response');
-      if (data.success === 2) throw new Error('Wishlist is private');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
 
-      const games = [];
-      let rank = 0;
-      for (const [appid, raw] of Object.entries(data)) {
-        if (appid === 'success') continue;
-        games.push(normalizeGame(appid, raw, rank++));
+        if (!data || typeof data !== 'object') throw new Error('Invalid response');
+        if (data.success === 2) throw new Error('Wishlist is private');
+
+        const games = [];
+        let rank = 0;
+        for (const [appid, raw] of Object.entries(data)) {
+          if (appid === 'success') continue;
+          if (typeof raw !== 'object' || raw === null) continue;
+          games.push(normalizeGame(appid, raw, rank++));
+        }
+        games.sort((a, b) => a.rank - b.rank);
+
+        if (games.length === 0) throw new Error('Empty wishlist response');
+
+        if (statusText) statusText.textContent = 'Connected';
+        if (badge) badge.classList.add('connected');
+        console.log(`[Steam] Loaded ${games.length} games.`);
+        return games;
+      } catch (err) {
+        console.warn('[Steam] Proxy failed:', err.message);
+        lastErr = err;
       }
-      // Steam returns them sorted by priority, but let's ensure sort
-      games.sort((a, b) => a.rank - b.rank);
-
-      if (statusText) statusText.textContent = 'Connected';
-      if (badge) badge.classList.add('connected');
-
-      return games;
-    } catch (err) {
-      console.warn('[Steam] Fetch failed:', err.message, '— using demo data.');
-      if (statusText) statusText.textContent = 'Demo mode';
-      if (badge) badge.classList.add('error');
-      return normalizeDemoGames();
     }
+
+    console.error('[Steam] All proxies failed:', lastErr?.message, '— using demo data.');
+    if (statusText) statusText.textContent = 'Demo mode';
+    if (badge) badge.classList.add('error');
+    return normalizeDemoGames();
   }
 
   function normalizeDemoGames() {
