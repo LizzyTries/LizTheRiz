@@ -33,7 +33,7 @@ window.ui = (function () {
       <div class="card-img-wrap">
         <img class="card-img" src="${esc(game.capsule)}" alt="${esc(game.name)}"
              loading="lazy"
-             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+             onerror="this.src='https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appid}/header.jpg';this.onerror=function(){this.style.display='none';this.nextElementSibling.style.display='flex'}" />
         <div class="card-img-placeholder" style="display:none">🎮</div>
         <div class="card-overlay"></div>
         <div class="card-rank">#${game.rank + 1}</div>
@@ -166,7 +166,7 @@ window.ui = (function () {
     wrap.innerHTML = `
       <div class="featured-card floating" onclick="window.ui.openModal(${featured.appid})">
         <img class="featured-img" src="${esc(featured.capsule)}" alt="${esc(featured.name)}"
-             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+             onerror="this.src='https://cdn.cloudflare.steamstatic.com/steam/apps/${featured.appid}/header.jpg';this.onerror=function(){this.style.display='none';this.nextElementSibling.style.display='flex'}" />
         <div class="featured-img-placeholder" style="display:none">🎮</div>
         <div class="featured-body">
           <span class="featured-badge">Featured</span>
@@ -199,7 +199,7 @@ window.ui = (function () {
 
     inner.innerHTML = `
       <img class="modal-header-img" src="${esc(game.capsule)}" alt="${esc(game.name)}"
-           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+           onerror="this.src='https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appid}/header.jpg';this.onerror=function(){this.style.display='none';this.nextElementSibling.style.display='flex'}" />
       <div class="modal-header-img-placeholder" style="display:none">🎮</div>
       <div class="modal-body">
         <h2 class="modal-title">${esc(game.name)}</h2>
