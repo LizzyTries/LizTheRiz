@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Vault — Steam Wishlist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <canvas id="loading-particles"></canvas>
+    <div class="loading-content">
+      <div class="vault-logo">
+        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="40" cy="40" r="38" stroke="#c0392b" stroke-width="2"/>
+          <path d="M40 12 L58 30 L58 50 L40 68 L22 50 L22 30 Z" stroke="#c0392b" stroke-width="1.5" fill="none"/>
+          <circle cx="40" cy="40" r="10" fill="#c0392b" opacity="0.8"/>
+          <line x1="40" y1="2" x2="40" y2="12" stroke="#c0392b" stroke-width="2"/>
+          <line x1="40" y1="68" x2="40" y2="78" stroke="#c0392b" stroke-width="2"/>
+          <line x1="2" y1="40" x2="12" y2="40" stroke="#c0392b" stroke-width="2"/>
+          <line x1="68" y1="40" x2="78" y2="40" stroke="#c0392b" stroke-width="2"/>
+        </svg>
+      </div>
+      <h1 class="loading-title">GAME VAULT</h1>
+      <div class="loading-bar-wrap"><div class="loading-bar"></div></div>
+      <p class="loading-status">Initializing vault...</p>
+    </div>
+  </div>
+
+  <!-- Mouse glow -->
+  <div id="mouse-glow"></div>
+
+  <!-- Ember canvas -->
+  <canvas id="ember-canvas"></canvas>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav id="main-nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="18" cy="18" r="16" stroke="#c0392b" stroke-width="1.5"/>
+          <path d="M18 6 L26 14 L26 22 L18 30 L10 22 L10 14 Z" stroke="#c0392b" stroke-width="1.2" fill="none"/>
+          <circle cx="18" cy="18" r="4" fill="#c0392b"/>
+        </svg>
+        <span>GAME VAULT</span>
+      </a>
+      <div class="nav-links">
+        <a href="#wishlist" class="nav-link">Wishlist</a>
+        <a href="#stats" class="nav-link">Stats</a>
+        <a href="#on-sale" class="nav-link">On Sale</a>
+        <a href="#about" class="nav-link">About</a>
+      </div>
+      <div class="nav-right">
+        <button id="random-btn" class="btn-ghost">🎲 Random</button>
+        <div class="steam-badge" id="steam-badge">
+          <span class="steam-dot"></span>
+          <span id="steam-status-text">Connecting...</span>
+        </div>
+      </div>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="nav-mobile">
+      <a href="#wishlist" class="nav-link">Wishlist</a>
+      <a href="#stats" class="nav-link">Stats</a>
+      <a href="#on-sale" class="nav-link">On Sale</a>
+      <a href="#about" class="nav-link">About</a>
+      <button id="random-btn-mobile" class="btn-ghost">🎲 Random Game</button>
+    </div>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <section id="hero">
+    <div class="hero-bg-gradient"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">STEAM WISHLIST</div>
+      <h1 class="hero-title">
+        <span class="hero-line">GAME</span>
+        <span class="hero-line accent">VAULT</span>
+      </h1>
+      <p class="hero-subtitle">A curated collection of titles I'm watching — discounts, release dates, and the games I can't wait to play.</p>
+      <div class="hero-actions">
+        <a href="#wishlist" class="btn-primary">View Wishlist</a>
+        <a href="#stats" class="btn-outline">View Stats</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-num" id="hero-count">—</span>
+          <span class="hero-stat-label">Games</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="hero-stat-num" id="hero-value">—</span>
+          <span class="hero-stat-label">Total Value</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="hero-stat-num" id="hero-sales">—</span>
+          <span class="hero-stat-label">On Sale</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-featured" id="hero-featured">
+      <!-- Featured game populated by JS -->
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ====== STATS DASHBOARD ====== -->
+  <section id="stats">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Overview</div>
+        <h2 class="section-title">Wishlist <span class="accent">Stats</span></h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card glass" data-stat="total">
+          <div class="stat-icon">🎮</div>
+          <div class="stat-num" id="stat-total">0</div>
+          <div class="stat-label">Total Games</div>
+        </div>
+        <div class="stat-card glass" data-stat="value">
+          <div class="stat-icon">💰</div>
+          <div class="stat-num" id="stat-value">$0</div>
+          <div class="stat-label">Total Value</div>
+        </div>
+        <div class="stat-card glass" data-stat="sale">
+          <div class="stat-icon">🔥</div>
+          <div class="stat-num" id="stat-sale">0</div>
+          <div class="stat-label">On Sale Now</div>
+        </div>
+        <div class="stat-card glass" data-stat="savings">
+          <div class="stat-icon">⚡</div>
+          <div class="stat-num" id="stat-savings">$0</div>
+          <div class="stat-label">Potential Savings</div>
+        </div>
+        <div class="stat-card glass" data-stat="top-genre">
+          <div class="stat-icon">🏆</div>
+          <div class="stat-num" id="stat-top-genre">—</div>
+          <div class="stat-label">Top Genre</div>
+        </div>
+        <div class="stat-card glass" data-stat="avg-price">
+          <div class="stat-icon">📊</div>
+          <div class="stat-num" id="stat-avg">$0</div>
+          <div class="stat-label">Avg Price</div>
+        </div>
+      </div>
+      <!-- Genre breakdown chart -->
+      <div class="genre-chart glass">
+        <h3 class="chart-title">Genre Breakdown</h3>
+        <div class="genre-bars" id="genre-bars"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== WISHLIST ====== -->
+  <section id="wishlist">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Collection</div>
+        <h2 class="section-title">My <span class="accent">Wishlist</span></h2>
+      </div>
+
+      <!-- Controls -->
+      <div class="controls glass">
+        <div class="search-wrap">
+          <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+          </svg>
+          <input type="text" id="search-input" placeholder="Search games..." class="search-input" />
+          <button id="search-clear" class="search-clear" aria-label="Clear search">✕</button>
+        </div>
+        <div class="filter-row">
+          <div class="genre-filters" id="genre-filters">
+            <button class="filter-chip active" data-genre="all">All</button>
+          </div>
+          <select id="sort-select" class="sort-select">
+            <option value="rank">Wishlist Order</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="discount">Biggest Discount</option>
+            <option value="name">A–Z</option>
+          </select>
+        </div>
+        <div class="results-info">
+          <span id="results-count">Loading...</span>
+        </div>
+      </div>
+
+      <!-- Game grid -->
+      <div class="game-grid" id="game-grid">
+        <!-- Skeleton loaders -->
+        <div class="game-card skeleton"></div>
+        <div class="game-card skeleton"></div>
+        <div class="game-card skeleton"></div>
+        <div class="game-card skeleton"></div>
+        <div class="game-card skeleton"></div>
+        <div class="game-card skeleton"></div>
+      </div>
+
+      <div class="empty-state hidden" id="empty-state">
+        <div class="empty-icon">🔍</div>
+        <h3>No games found</h3>
+        <p>Try a different search or filter.</p>
+        <button class="btn-outline" onclick="document.getElementById('search-input').value='';window.ui.resetFilters()">Clear Filters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ON SALE ====== -->
+  <section id="on-sale">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Limited Time</div>
+        <h2 class="section-title">On <span class="accent">Sale</span></h2>
+        <p class="section-desc">Wishlist games currently discounted on Steam.</p>
+      </div>
+      <div class="sale-grid" id="sale-grid">
+        <p class="loading-msg">Loading sale data...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== VALUE CALCULATOR ====== -->
+  <section id="calculator">
+    <div class="container">
+      <div class="calc-wrap glass">
+        <div class="calc-info">
+          <div class="section-eyebrow">Tool</div>
+          <h2 class="section-title">Wishlist <span class="accent">Calculator</span></h2>
+          <p>See how much you'd spend buying everything on sale right now vs. full price.</p>
+          <div class="calc-results">
+            <div class="calc-row">
+              <span>Full price total</span>
+              <strong id="calc-full">—</strong>
+            </div>
+            <div class="calc-row highlight">
+              <span>Sale price total</span>
+              <strong id="calc-sale">—</strong>
+            </div>
+            <div class="calc-row savings">
+              <span>You'd save</span>
+              <strong id="calc-savings">—</strong>
+            </div>
+          </div>
+        </div>
+        <div class="calc-visual">
+          <div class="calc-donut" id="calc-donut">
+            <svg viewBox="0 0 120 120" id="donut-svg">
+              <circle cx="60" cy="60" r="50" fill="none" stroke="#1a1a1a" stroke-width="16"/>
+              <circle cx="60" cy="60" r="50" fill="none" stroke="#c0392b" stroke-width="16"
+                stroke-dasharray="314" stroke-dashoffset="314"
+                stroke-linecap="round" transform="rotate(-90 60 60)"
+                id="donut-progress"/>
+            </svg>
+            <div class="donut-label">
+              <span id="donut-pct">0%</span>
+              <small>savings</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section id="about">
+    <div class="container">
+      <div class="about-wrap glass">
+        <div class="about-avatar">
+          <div class="avatar-ring">
+            <div class="avatar-inner">🎮</div>
+          </div>
+        </div>
+        <div class="about-content">
+          <div class="section-eyebrow">About</div>
+          <h2 class="section-title">The <span class="accent">Gamer</span></h2>
+          <p class="about-bio">
+            This is my personal Steam wishlist showcase. I'm a gamer who loves tracking upcoming releases, hunting deals, and exploring every genre from indie gems to AAA blockbusters. This vault automatically syncs with my public Steam wishlist.
+          </p>
+          <div class="about-tags">
+            <span class="tag">RPG</span>
+            <span class="tag">Strategy</span>
+            <span class="tag">Action</span>
+            <span class="tag">Indie</span>
+            <span class="tag">Horror</span>
+          </div>
+          <div class="about-links">
+            <a href="https://store.steampowered.com/wishlist/profiles/YOUR_STEAM_ID" target="_blank" class="btn-primary" id="steam-profile-link">
+              View on Steam
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="18" cy="18" r="16" stroke="#c0392b" stroke-width="1.5"/>
+            <path d="M18 6 L26 14 L26 22 L18 30 L10 22 L10 14 Z" stroke="#c0392b" stroke-width="1.2" fill="none"/>
+            <circle cx="18" cy="18" r="4" fill="#c0392b"/>
+          </svg>
+          <span>GAME VAULT</span>
+        </div>
+        <p class="footer-note">Game data sourced from Steam. Not affiliated with Valve Corporation.</p>
+        <p class="footer-update">Last updated: <span id="footer-update-time">—</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Game modal -->
+  <div class="modal-overlay hidden" id="modal-overlay">
+    <div class="modal glass" id="game-modal">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div class="modal-inner" id="modal-inner"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/steam.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
