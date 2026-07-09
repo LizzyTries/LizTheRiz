@@ -1,11 +1,22 @@
 {
   "1326470": {
     "name": "Sons Of The Forest",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/page_bg_generated_v6b.jpg",
     "desc": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive alone or with friends in this terrifying open-world survival horror simulator.",
-    "tags": {"0": "Survival", "1": "Open World", "2": "Multiplayer", "3": "Co-op", "4": "Survival Horror"},
-    "subs": [{"discount_pct": 0, "price": 2999}],
+    "tags": {
+      "0": "Survival",
+      "1": "Open World",
+      "2": "Multiplayer",
+      "3": "Co-op",
+      "4": "Survival Horror"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 2999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -13,12 +24,23 @@
     "release_string": "Feb 22, 2024"
   },
   "2172010": {
-    "name": "Until Dawn™",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2172010/capsule_616x353.jpg",
+    "name": "Until Dawn\u2122",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2172010/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2172010/page_bg_generated_v6b.jpg",
-    "desc": "Eight friends trapped on a remote mountain getaway — only you can decide who lives and who dies. Every choice, every action, and every second counts in this gripping interactive horror experience.",
-    "tags": {"0": "Choices Matter", "1": "Horror", "2": "Adventure", "3": "Multiple Endings", "4": "Choose Your Own Adventure"},
-    "subs": [{"discount_pct": 0, "price": 5999}],
+    "desc": "Eight friends trapped on a remote mountain getaway \u2014 only you can decide who lives and who dies. Every choice, every action, and every second counts in this gripping interactive horror experience.",
+    "tags": {
+      "0": "Choices Matter",
+      "1": "Horror",
+      "2": "Adventure",
+      "3": "Multiple Endings",
+      "4": "Choose Your Own Adventure"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 5999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -26,12 +48,23 @@
     "release_string": "Oct 4, 2024"
   },
   "1151640": {
-    "name": "Horizon Zero Dawn™ Complete Edition",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/capsule_616x353.jpg",
+    "name": "Horizon Zero Dawn\u2122 Complete Edition",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/page_bg_generated_v6b.jpg",
     "desc": "A lush, post-apocalyptic world overrun by mysterious machines. Play as Aloy, a hunter on a quest to uncover her past and the truth behind Earth's downfall in this epic open-world action RPG.",
-    "tags": {"0": "Open World", "1": "Adventure", "2": "Female Protagonist", "3": "Singleplayer", "4": "Story Rich"},
-    "subs": [{"discount_pct": 0, "price": 4999}],
+    "tags": {
+      "0": "Open World",
+      "1": "Adventure",
+      "2": "Female Protagonist",
+      "3": "Singleplayer",
+      "4": "Story Rich"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 4999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -40,11 +73,22 @@
   },
   "582010": {
     "name": "Monster Hunter: World",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/page_bg_generated_v6b.jpg",
     "desc": "Welcome to a new world. Hunt monsters in a living, breathing ecosystem using everything at your disposal. Enjoy the ultimate hunting experience alone or with friends in seamless online co-op.",
-    "tags": {"0": "Co-op", "1": "Multiplayer", "2": "Action", "3": "Open World", "4": "RPG"},
-    "subs": [{"discount_pct": 0, "price": 2999}],
+    "tags": {
+      "0": "Co-op",
+      "1": "Multiplayer",
+      "2": "Action",
+      "3": "Open World",
+      "4": "RPG"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 2999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -53,11 +97,22 @@
   },
   "2475490": {
     "name": "Mouthwashing",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2475490/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2475490/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2475490/page_bg_generated_v6b.jpg",
     "desc": "A stranded spaceship. A desperate crew. A captain who may have lost his mind. Mouthwashing is a gut-wrenching psychological horror game set aboard a doomed cargo vessel drifting through the void.",
-    "tags": {"0": "Psychological Horror", "1": "Horror", "2": "Story Rich", "3": "Atmospheric", "4": "Retro"},
-    "subs": [{"discount_pct": 0, "price": 1299}],
+    "tags": {
+      "0": "Psychological Horror",
+      "1": "Horror",
+      "2": "Story Rich",
+      "3": "Atmospheric",
+      "4": "Retro"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1299
+      }
+    ],
     "is_free_game": false,
     "review_score": 9,
     "review_desc": "Overwhelmingly Positive",
@@ -65,12 +120,23 @@
     "release_string": "Sep 26, 2024"
   },
   "3008670": {
-    "name": "Poppy Playtime — Chapter 4",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3008670/capsule_616x353.jpg",
+    "name": "Poppy Playtime \u2014 Chapter 4",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3008670/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3008670/page_bg_generated_v6b.jpg",
     "desc": "The next chapter in the Poppy Playtime saga. Explore the depths of the Playtime Co. facility and face terrifying new horrors lurking in the dark.",
-    "tags": {"0": "Horror", "1": "Singleplayer", "2": "Puzzle", "3": "First-Person", "4": "Survival Horror"},
-    "subs": [{"discount_pct": 0, "price": 1999}],
+    "tags": {
+      "0": "Horror",
+      "1": "Singleplayer",
+      "2": "Puzzle",
+      "3": "First-Person",
+      "4": "Survival Horror"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1999
+      }
+    ],
     "is_free_game": false,
     "review_score": 5,
     "review_desc": "Mixed",
@@ -79,11 +145,22 @@
   },
   "2597970": {
     "name": "Finding Frankie",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2597970/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2597970/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2597970/page_bg_generated_v6b.jpg",
     "desc": "Something is hunting you. Parkour through terrifying environments and outsmart a relentless animatronic predator in this first-person horror game where speed is your only salvation.",
-    "tags": {"0": "Horror", "1": "Parkour", "2": "First-Person", "3": "Singleplayer", "4": "Atmospheric"},
-    "subs": [{"discount_pct": 0, "price": 1499}],
+    "tags": {
+      "0": "Horror",
+      "1": "Parkour",
+      "2": "First-Person",
+      "3": "Singleplayer",
+      "4": "Atmospheric"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1499
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -92,11 +169,22 @@
   },
   "532210": {
     "name": "Life is Strange 2",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/532210/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/532210/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/532210/page_bg_generated_v6b.jpg",
     "desc": "After a tragic incident, brothers Sean and Daniel Diaz must flee their home. Together they embark on a dangerous journey across America, shaped entirely by the choices you make.",
-    "tags": {"0": "Choices Matter", "1": "Story Rich", "2": "Adventure", "3": "Singleplayer", "4": "Great Soundtrack"},
-    "subs": [{"discount_pct": 0, "price": 0}],
+    "tags": {
+      "0": "Choices Matter",
+      "1": "Story Rich",
+      "2": "Adventure",
+      "3": "Singleplayer",
+      "4": "Great Soundtrack"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 0
+      }
+    ],
     "is_free_game": true,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -105,10 +193,16 @@
   },
   "3722330": {
     "name": "Shift At Midnight",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3722330/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3722330/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3722330/page_bg_generated_v6b.jpg",
     "desc": "Clock in. Clock out. Survive the night. A retro-styled co-op horror game set in a haunted workplace where every shift could be your last.",
-    "tags": {"0": "Horror", "1": "Online Co-Op", "2": "Multiplayer", "3": "Retro", "4": "3D"},
+    "tags": {
+      "0": "Horror",
+      "1": "Online Co-Op",
+      "2": "Multiplayer",
+      "3": "Retro",
+      "4": "3D"
+    },
     "subs": [],
     "is_free_game": false,
     "review_score": 0,
@@ -118,11 +212,22 @@
   },
   "2661300": {
     "name": "Grounded 2",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2661300/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2661300/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2661300/page_bg_generated_v6b.jpg",
     "desc": "The backyard survival adventure continues. Shrunk once again, explore a brand new environment teeming with insects, craft powerful gear, build impressive bases, and survive alone or with friends.",
-    "tags": {"0": "Survival", "1": "Multiplayer", "2": "Adventure", "3": "Base Building", "4": "Co-op"},
-    "subs": [{"discount_pct": 0, "price": 2699}],
+    "tags": {
+      "0": "Survival",
+      "1": "Multiplayer",
+      "2": "Adventure",
+      "3": "Base Building",
+      "4": "Co-op"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 2699
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -131,11 +236,22 @@
   },
   "1332010": {
     "name": "Stray",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/page_bg_generated_v6b.jpg",
     "desc": "Lost, alone and separated from family, a stray cat must untangle an ancient mystery to escape a long-forgotten cybercity and find the way home among the inhabitants of this decaying world.",
-    "tags": {"0": "Cats", "1": "Adventure", "2": "Atmospheric", "3": "Singleplayer", "4": "Cyberpunk"},
-    "subs": [{"discount_pct": 50, "price": 1499}],
+    "tags": {
+      "0": "Cats",
+      "1": "Adventure",
+      "2": "Atmospheric",
+      "3": "Singleplayer",
+      "4": "Cyberpunk"
+    },
+    "subs": [
+      {
+        "discount_pct": 50,
+        "price": 1499
+      }
+    ],
     "is_free_game": false,
     "review_score": 9,
     "review_desc": "Overwhelmingly Positive",
@@ -144,11 +260,22 @@
   },
   "1929610": {
     "name": "Demonologist",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1929610/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1929610/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1929610/page_bg_generated_v6b.jpg",
     "desc": "Investigate haunted locations, identify demonic entities, and perform exorcisms before it's too late. A co-op horror game for up to 4 players.",
-    "tags": {"0": "Horror", "1": "Multiplayer", "2": "Online Co-Op", "3": "Psychological Horror", "4": "Co-op"},
-    "subs": [{"discount_pct": 0, "price": 1999}],
+    "tags": {
+      "0": "Horror",
+      "1": "Multiplayer",
+      "2": "Online Co-Op",
+      "3": "Psychological Horror",
+      "4": "Co-op"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -157,11 +284,22 @@
   },
   "2475010": {
     "name": "Pizza Bandit",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2475010/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2475010/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2475010/page_bg_generated_v6b.jpg",
     "desc": "Steal the pizza. Dodge the chaos. A fast-paced co-op action shooter where you and your crew pull off the most deliciously criminal heists in gaming history.",
-    "tags": {"0": "Action", "1": "Shooter", "2": "Co-op", "3": "Online Co-Op", "4": "Third-Person Shooter"},
-    "subs": [{"discount_pct": 0, "price": 2499}],
+    "tags": {
+      "0": "Action",
+      "1": "Shooter",
+      "2": "Co-op",
+      "3": "Online Co-Op",
+      "4": "Third-Person Shooter"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 2499
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -170,11 +308,22 @@
   },
   "1203620": {
     "name": "Enshrouded",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1203620/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1203620/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1203620/page_bg_generated_v6b.jpg",
     "desc": "Survive, craft and fight in a vast voxel-based world. An action RPG set on the smoldering frontier of an ancient kingdom overrun by a magic fog and ferocious monsters.",
-    "tags": {"0": "Open World", "1": "Survival", "2": "Base Building", "3": "Multiplayer", "4": "Online Co-Op"},
-    "subs": [{"discount_pct": 0, "price": 2999}],
+    "tags": {
+      "0": "Open World",
+      "1": "Survival",
+      "2": "Base Building",
+      "3": "Multiplayer",
+      "4": "Online Co-Op"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 2999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -183,11 +332,22 @@
   },
   "2208570": {
     "name": "Dark Hours",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2208570/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2208570/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2208570/page_bg_generated_v6b.jpg",
     "desc": "A co-op horror heist game. Break in, steal the loot, and get out before the dark claims you. Work together or die alone.",
-    "tags": {"0": "Horror", "1": "Online Co-Op", "2": "Multiplayer", "3": "Heist", "4": "Co-op"},
-    "subs": [{"discount_pct": 0, "price": 1349}],
+    "tags": {
+      "0": "Horror",
+      "1": "Online Co-Op",
+      "2": "Multiplayer",
+      "3": "Heist",
+      "4": "Co-op"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1349
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -196,11 +356,22 @@
   },
   "4720": {
     "name": "Condemned: Criminal Origins",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4720/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4720/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/4720/page_bg_generated_v6b.jpg",
     "desc": "Play as an FBI agent framed for murder, hunting a serial killer through the darkest corners of a decaying city. A brutal first-person horror combat classic.",
-    "tags": {"0": "Horror", "1": "Action", "2": "First-Person", "3": "Atmospheric", "4": "Survival Horror"},
-    "subs": [{"discount_pct": 0, "price": 1499}],
+    "tags": {
+      "0": "Horror",
+      "1": "Action",
+      "2": "First-Person",
+      "3": "Atmospheric",
+      "4": "Survival Horror"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1499
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -209,11 +380,22 @@
   },
   "594330": {
     "name": "Visage",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/594330/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/594330/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/594330/page_bg_generated_v6b.jpg",
-    "desc": "A slow-paced, first-person psychological horror game set in a house with a grim past. Explore an ever-changing house that reacts to your fears — and remember, you are never truly alone.",
-    "tags": {"0": "Horror", "1": "Psychological Horror", "2": "Survival Horror", "3": "Dark", "4": "Atmospheric"},
-    "subs": [{"discount_pct": 0, "price": 3499}],
+    "desc": "A slow-paced, first-person psychological horror game set in a house with a grim past. Explore an ever-changing house that reacts to your fears \u2014 and remember, you are never truly alone.",
+    "tags": {
+      "0": "Horror",
+      "1": "Psychological Horror",
+      "2": "Survival Horror",
+      "3": "Dark",
+      "4": "Atmospheric"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 3499
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -222,11 +404,22 @@
   },
   "252330": {
     "name": "Slender: The Arrival",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/252330/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/252330/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/252330/page_bg_generated_v6b.jpg",
     "desc": "The official Slender Man horror experience. Explore dark environments and survive the relentless pursuit of the Slender Man in this iconic survival horror game.",
-    "tags": {"0": "Horror", "1": "Survival Horror", "2": "First-Person", "3": "Indie", "4": "Atmospheric"},
-    "subs": [{"discount_pct": 0, "price": 1999}],
+    "tags": {
+      "0": "Horror",
+      "1": "Survival Horror",
+      "2": "First-Person",
+      "3": "Indie",
+      "4": "Atmospheric"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -235,11 +428,22 @@
   },
   "896520": {
     "name": "Stay Out of the House",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/896520/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/896520/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/896520/page_bg_generated_v6b.jpg",
     "desc": "A brutal retro-style first-person survival horror game. You've been kidnapped by a deranged butcher. Sneak, hide, and escape before you become his next meal.",
-    "tags": {"0": "Horror", "1": "Survival Horror", "2": "First-Person", "3": "Stealth", "4": "Indie"},
-    "subs": [{"discount_pct": 0, "price": 999}],
+    "tags": {
+      "0": "Horror",
+      "1": "Survival Horror",
+      "2": "First-Person",
+      "3": "Stealth",
+      "4": "Indie"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -248,11 +452,22 @@
   },
   "2772990": {
     "name": "Ghost Janitors",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2772990/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2772990/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2772990/page_bg_generated_v6b.jpg",
     "desc": "Someone has to clean up after the dead. A co-op horror game where you and your team sanitize haunted locations while something terrifying lurks in the dark.",
-    "tags": {"0": "Horror", "1": "Online Co-Op", "2": "Multiplayer", "3": "Psychological Horror", "4": "Indie"},
-    "subs": [{"discount_pct": 0, "price": 899}],
+    "tags": {
+      "0": "Horror",
+      "1": "Online Co-Op",
+      "2": "Multiplayer",
+      "3": "Psychological Horror",
+      "4": "Indie"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 899
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -261,11 +476,22 @@
   },
   "617160": {
     "name": "Home Sweet Home",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/617160/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/617160/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/617160/page_bg_generated_v6b.jpg",
     "desc": "Inspired by Thai mythology and beliefs, Home Sweet Home is a first-person horror game where you must escape from a vengeful spirit hunting you through terrifying environments.",
-    "tags": {"0": "Horror", "1": "Adventure", "2": "Indie", "3": "Survival Horror", "4": "Atmospheric"},
-    "subs": [{"discount_pct": 0, "price": 1599}],
+    "tags": {
+      "0": "Horror",
+      "1": "Adventure",
+      "2": "Indie",
+      "3": "Survival Horror",
+      "4": "Atmospheric"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1599
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -274,11 +500,22 @@
   },
   "1092660": {
     "name": "Blair Witch",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1092660/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1092660/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1092660/page_bg_generated_v6b.jpg",
-    "desc": "Based on the Blair Witch universe. A story-driven psychological horror game where you and your dog explore the Black Hills Forest in search of a missing boy — and uncover something far worse.",
-    "tags": {"0": "Dogs", "1": "Horror", "2": "Adventure", "3": "Psychological Horror", "4": "Indie"},
-    "subs": [{"discount_pct": 0, "price": 2999}],
+    "desc": "Based on the Blair Witch universe. A story-driven psychological horror game where you and your dog explore the Black Hills Forest in search of a missing boy \u2014 and uncover something far worse.",
+    "tags": {
+      "0": "Dogs",
+      "1": "Horror",
+      "2": "Adventure",
+      "3": "Psychological Horror",
+      "4": "Indie"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 2999
+      }
+    ],
     "is_free_game": false,
     "review_score": 7,
     "review_desc": "Mostly Positive",
@@ -287,11 +524,22 @@
   },
   "1670870": {
     "name": "MADiSON",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1670870/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1670870/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1670870/page_bg_generated_v6b.jpg",
     "desc": "Luca wakes up with his hands covered in blood. Trapped by a demon called MADiSON, he must use an instant camera to connect the world of the living and the dead in this terrifying first-person horror game.",
-    "tags": {"0": "Horror", "1": "Psychological Horror", "2": "Dark", "3": "Survival Horror", "4": "First-Person"},
-    "subs": [{"discount_pct": 0, "price": 3499}],
+    "tags": {
+      "0": "Horror",
+      "1": "Psychological Horror",
+      "2": "Dark",
+      "3": "Survival Horror",
+      "4": "First-Person"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 3499
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -300,11 +548,22 @@
   },
   "230210": {
     "name": "ASYLUM",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/230210/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/230210/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/230210/page_bg_generated_v6b.jpg",
     "desc": "A point-and-click psychological horror game set in an abandoned asylum. Explore the darkness, uncover its secrets, and face horrors beyond imagination.",
-    "tags": {"0": "Adventure", "1": "Indie", "2": "Horror", "3": "Point & Click", "4": "Psychological Horror"},
-    "subs": [{"discount_pct": 0, "price": 2499}],
+    "tags": {
+      "0": "Adventure",
+      "1": "Indie",
+      "2": "Horror",
+      "3": "Point & Click",
+      "4": "Psychological Horror"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 2499
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -313,11 +572,22 @@
   },
   "629220": {
     "name": "Rise of Insanity",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/629220/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/629220/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/629220/page_bg_generated_v6b.jpg",
-    "desc": "A psychological horror game set in 1970s America. Play as a psychiatrist investigating the darkest corners of the human mind — and your own terrifying past.",
-    "tags": {"0": "Indie", "1": "Adventure", "2": "Horror", "3": "Simulation", "4": "Psychological Horror"},
-    "subs": [{"discount_pct": 0, "price": 999}],
+    "desc": "A psychological horror game set in 1970s America. Play as a psychiatrist investigating the darkest corners of the human mind \u2014 and your own terrifying past.",
+    "tags": {
+      "0": "Indie",
+      "1": "Adventure",
+      "2": "Horror",
+      "3": "Simulation",
+      "4": "Psychological Horror"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 999
+      }
+    ],
     "is_free_game": false,
     "review_score": 7,
     "review_desc": "Mostly Positive",
@@ -326,11 +596,22 @@
   },
   "1293160": {
     "name": "The Medium",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1293160/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1293160/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1293160/page_bg_generated_v6b.jpg",
     "desc": "A third-person psychological horror game featuring a dual-reality gameplay mechanic. Explore the real world and the spirit world simultaneously as a medium uncovering a dark mystery.",
-    "tags": {"0": "Adventure", "1": "Horror", "2": "Female Protagonist", "3": "Psychological Horror", "4": "Atmospheric"},
-    "subs": [{"discount_pct": 0, "price": 4999}],
+    "tags": {
+      "0": "Adventure",
+      "1": "Horror",
+      "2": "Female Protagonist",
+      "3": "Psychological Horror",
+      "4": "Atmospheric"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 4999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -339,11 +620,22 @@
   },
   "1944430": {
     "name": "Amnesia: The Bunker",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1944430/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1944430/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1944430/page_bg_generated_v6b.jpg",
-    "desc": "A first-person horror game set in a WWII bunker. You are alone. Something is hunting you. Manage your resources, survive the darkness, and find a way out — if you can.",
-    "tags": {"0": "Horror", "1": "Survival Horror", "2": "Atmospheric", "3": "Immersive Sim", "4": "Stealth"},
-    "subs": [{"discount_pct": 0, "price": 2499}],
+    "desc": "A first-person horror game set in a WWII bunker. You are alone. Something is hunting you. Manage your resources, survive the darkness, and find a way out \u2014 if you can.",
+    "tags": {
+      "0": "Horror",
+      "1": "Survival Horror",
+      "2": "Atmospheric",
+      "3": "Immersive Sim",
+      "4": "Stealth"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 2499
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -352,11 +644,22 @@
   },
   "3949040": {
     "name": "RV There Yet?",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3949040/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3949040/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3949040/page_bg_generated_v6b.jpg",
     "desc": "Load up the RV and hit the road. A cozy road-trip simulation game full of quirky characters, roadside attractions, and unexpected detours.",
-    "tags": {"0": "Simulation", "1": "Casual", "2": "Driving", "3": "Adventure", "4": "Relaxing"},
-    "subs": [{"discount_pct": 0, "price": 799}],
+    "tags": {
+      "0": "Simulation",
+      "1": "Casual",
+      "2": "Driving",
+      "3": "Adventure",
+      "4": "Relaxing"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 799
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -365,11 +668,22 @@
   },
   "2506530": {
     "name": "It Has My Face",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2506530/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2506530/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2506530/page_bg_generated_v6b.jpg",
     "desc": "Something is wearing your face. A procedurally generated psychological horror roguelike where paranoia is your greatest enemy and trust is your scarcest resource.",
-    "tags": {"0": "Psychological Horror", "1": "Action Roguelike", "2": "Atmospheric", "3": "Singleplayer", "4": "Procedural Generation"},
-    "subs": [{"discount_pct": 0, "price": 899}],
+    "tags": {
+      "0": "Psychological Horror",
+      "1": "Action Roguelike",
+      "2": "Atmospheric",
+      "3": "Singleplayer",
+      "4": "Procedural Generation"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 899
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -378,11 +692,22 @@
   },
   "1321680": {
     "name": "Hello Neighbor 2",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1321680/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1321680/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1321680/page_bg_generated_v6b.jpg",
     "desc": "Sneak into your creepy neighbor's house and uncover the dark secret he's been hiding. A first-person stealth horror adventure driven by an advanced AI that learns from your every move.",
-    "tags": {"0": "Adventure", "1": "Puzzle", "2": "Horror", "3": "First-Person", "4": "Action-Adventure"},
-    "subs": [{"discount_pct": 0, "price": 3999}],
+    "tags": {
+      "0": "Adventure",
+      "1": "Puzzle",
+      "2": "Horror",
+      "3": "First-Person",
+      "4": "Action-Adventure"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 3999
+      }
+    ],
     "is_free_game": false,
     "review_score": 7,
     "review_desc": "Mostly Positive",
@@ -391,11 +716,22 @@
   },
   "648800": {
     "name": "Raft",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/648800/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/648800/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/648800/page_bg_generated_v6b.jpg",
     "desc": "Stranded on a raft in the middle of the ocean. Gather debris, expand your raft, and survive the perilous waters alone or with friends in this open-world ocean survival game.",
-    "tags": {"0": "Survival", "1": "Multiplayer", "2": "Open World Survival Craft", "3": "Co-op", "4": "Crafting"},
-    "subs": [{"discount_pct": 0, "price": 1999}],
+    "tags": {
+      "0": "Survival",
+      "1": "Multiplayer",
+      "2": "Open World Survival Craft",
+      "3": "Co-op",
+      "4": "Crafting"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -404,11 +740,22 @@
   },
   "2947440": {
     "name": "SILENT HILL f",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2947440/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2947440/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2947440/page_bg_generated_v6b.jpg",
     "desc": "A brand new chapter in the legendary Silent Hill series. Set in 1960s Japan, experience a haunting psychological horror story unlike anything the franchise has seen before.",
-    "tags": {"0": "Psychological Horror", "1": "Horror", "2": "Female Protagonist", "3": "Survival Horror", "4": "Story Rich"},
-    "subs": [{"discount_pct": 0, "price": 6999}],
+    "tags": {
+      "0": "Psychological Horror",
+      "1": "Horror",
+      "2": "Female Protagonist",
+      "3": "Survival Horror",
+      "4": "Story Rich"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 6999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -417,11 +764,22 @@
   },
   "1392860": {
     "name": "Little Nightmares III",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1392860/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1392860/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1392860/page_bg_generated_v6b.jpg",
-    "desc": "Two children, Low and Alone, navigate the Spiral — a cruel and twisted world filled with nightmarish creatures. For the first time in the series, face your fears together in co-op.",
-    "tags": {"0": "Co-op", "1": "Adventure", "2": "Horror", "3": "Multiplayer", "4": "Puzzle"},
-    "subs": [{"discount_pct": 0, "price": 3999}],
+    "desc": "Two children, Low and Alone, navigate the Spiral \u2014 a cruel and twisted world filled with nightmarish creatures. For the first time in the series, face your fears together in co-op.",
+    "tags": {
+      "0": "Co-op",
+      "1": "Adventure",
+      "2": "Horror",
+      "3": "Multiplayer",
+      "4": "Puzzle"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 3999
+      }
+    ],
     "is_free_game": false,
     "review_score": 5,
     "review_desc": "Mixed",
@@ -430,11 +788,22 @@
   },
   "2863640": {
     "name": "The Midnight Walk",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2863640/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2863640/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2863640/page_bg_generated_v6b.jpg",
     "desc": "A hand-crafted stop-motion horror adventure. Walk the dark road, keep your flame alive, and face the creatures that lurk in the night in this hauntingly beautiful game.",
-    "tags": {"0": "Horror", "1": "Atmospheric", "2": "Adventure", "3": "Singleplayer", "4": "Dark"},
-    "subs": [{"discount_pct": 0, "price": 1999}],
+    "tags": {
+      "0": "Horror",
+      "1": "Atmospheric",
+      "2": "Adventure",
+      "3": "Singleplayer",
+      "4": "Dark"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -443,10 +812,16 @@
   },
   "4026510": {
     "name": "Lucid Falls",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4026510/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4026510/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/4026510/page_bg_generated_v6b.jpg",
     "desc": "An upcoming 3D exploration and action-adventure game. More details to come.",
-    "tags": {"0": "Exploration", "1": "Action-Adventure", "2": "3D", "3": "First-Person", "4": "Third Person"},
+    "tags": {
+      "0": "Exploration",
+      "1": "Action-Adventure",
+      "2": "3D",
+      "3": "First-Person",
+      "4": "Third Person"
+    },
     "subs": [],
     "is_free_game": false,
     "review_score": 0,
@@ -456,11 +831,22 @@
   },
   "2221920": {
     "name": "Immortals Fenyx Rising",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2221920/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2221920/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2221920/page_bg_generated_v6b.jpg",
     "desc": "A bold new open-world action-adventure game from Ubisoft set in a fantastical world inspired by Greek mythology. Battle gods, explore dungeons, and solve puzzles as the hero Fenyx.",
-    "tags": {"0": "Adventure", "1": "Open World", "2": "RPG", "3": "Mythology", "4": "Puzzle"},
-    "subs": [{"discount_pct": 0, "price": 3999}],
+    "tags": {
+      "0": "Adventure",
+      "1": "Open World",
+      "2": "RPG",
+      "3": "Mythology",
+      "4": "Puzzle"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 3999
+      }
+    ],
     "is_free_game": false,
     "review_score": 7,
     "review_desc": "Mostly Positive",
@@ -469,11 +855,22 @@
   },
   "285900": {
     "name": "Gang Beasts",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/285900/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/285900/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/285900/page_bg_generated_v6b.jpg",
     "desc": "Goofy physics-based party brawler with squishy characters, slippery environments, and relentless multiplayer mayhem. Fight your friends in a series of increasingly absurd arenas.",
-    "tags": {"0": "Funny", "1": "Physics", "2": "Multiplayer", "3": "Colorful", "4": "Party Game"},
-    "subs": [{"discount_pct": 0, "price": 1999}],
+    "tags": {
+      "0": "Funny",
+      "1": "Physics",
+      "2": "Multiplayer",
+      "3": "Colorful",
+      "4": "Party Game"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -482,11 +879,22 @@
   },
   "3180070": {
     "name": "No, I'm not a Human",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3180070/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3180070/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3180070/page_bg_generated_v6b.jpg",
-    "desc": "A psychological horror game built on paranoia and deception. Someone among you is not what they claim to be — and the choices you make determine who survives.",
-    "tags": {"0": "Horror", "1": "Psychological Horror", "2": "Choices Matter", "3": "Indie", "4": "Singleplayer"},
-    "subs": [{"discount_pct": 0, "price": 1499}],
+    "desc": "A psychological horror game built on paranoia and deception. Someone among you is not what they claim to be \u2014 and the choices you make determine who survives.",
+    "tags": {
+      "0": "Horror",
+      "1": "Psychological Horror",
+      "2": "Choices Matter",
+      "3": "Indie",
+      "4": "Singleplayer"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1499
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -495,11 +903,22 @@
   },
   "3265230": {
     "name": "Cursed Companions",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3265230/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3265230/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3265230/page_bg_generated_v6b.jpg",
     "desc": "A funny co-op exploration game where cursed companions must work together to break their hex. Laugh your way through puzzles, chaos, and very questionable decisions.",
-    "tags": {"0": "Funny", "1": "Online Co-Op", "2": "Comedy", "3": "Multiplayer", "4": "Exploration"},
-    "subs": [{"discount_pct": 30, "price": 629}],
+    "tags": {
+      "0": "Funny",
+      "1": "Online Co-Op",
+      "2": "Comedy",
+      "3": "Multiplayer",
+      "4": "Exploration"
+    },
+    "subs": [
+      {
+        "discount_pct": 30,
+        "price": 629
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -508,11 +927,22 @@
   },
   "312520": {
     "name": "Rain World",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/312520/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/312520/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/312520/page_bg_generated_v6b.jpg",
     "desc": "A slugcat scrambles to survive in a harsh, flooded world teeming with predators. A hauntingly atmospheric survival platformer with a living, breathing ecosystem that doesn't care if you live or die.",
-    "tags": {"0": "Difficult", "1": "Atmospheric", "2": "Survival", "3": "Exploration", "4": "Indie"},
-    "subs": [{"discount_pct": 0, "price": 2499}],
+    "tags": {
+      "0": "Difficult",
+      "1": "Atmospheric",
+      "2": "Survival",
+      "3": "Exploration",
+      "4": "Indie"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 2499
+      }
+    ],
     "is_free_game": false,
     "review_score": 9,
     "review_desc": "Overwhelmingly Positive",
@@ -520,12 +950,23 @@
     "release_string": "Mar 28, 2017"
   },
   "1113560": {
-    "name": "NieR Replicant™ ver.1.22474487139...",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1113560/capsule_616x353.jpg",
+    "name": "NieR Replicant\u2122 ver.1.22474487139...",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1113560/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1113560/page_bg_generated_v6b.jpg",
     "desc": "The prequel to NieR:Automata. A young man fights to cure his sister's deadly illness in a world filled with monsters and dark secrets. Features an unforgettable story and legendary soundtrack.",
-    "tags": {"0": "Great Soundtrack", "1": "Story Rich", "2": "Action", "3": "RPG", "4": "JRPG"},
-    "subs": [{"discount_pct": 0, "price": 5999}],
+    "tags": {
+      "0": "Great Soundtrack",
+      "1": "Story Rich",
+      "2": "Action",
+      "3": "RPG",
+      "4": "JRPG"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 5999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -534,11 +975,22 @@
   },
   "967050": {
     "name": "Pacify",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/967050/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/967050/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/967050/page_bg_generated_v6b.jpg",
-    "desc": "Investigate a haunted house and pacify the evil spirit inside. A co-op horror game where you must complete rituals before the ghost grows too powerful — or drags you into the darkness.",
-    "tags": {"0": "Horror", "1": "Online Co-Op", "2": "Multiplayer", "3": "Co-op", "4": "Psychological Horror"},
-    "subs": [{"discount_pct": 0, "price": 499}],
+    "desc": "Investigate a haunted house and pacify the evil spirit inside. A co-op horror game where you must complete rituals before the ghost grows too powerful \u2014 or drags you into the darkness.",
+    "tags": {
+      "0": "Horror",
+      "1": "Online Co-Op",
+      "2": "Multiplayer",
+      "3": "Co-op",
+      "4": "Psychological Horror"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 499
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -547,10 +999,16 @@
   },
   "4171850": {
     "name": "Trees Hate You",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4171850/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4171850/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/4171850/page_bg_generated_v6b.jpg",
     "desc": "A dark comedy where the trees have had enough. Parody, memes, and mayhem collide in this hilariously absurd game where nature fights back.",
-    "tags": {"0": "Comedy", "1": "Funny", "2": "Dark Humor", "3": "Parody", "4": "Memes"},
+    "tags": {
+      "0": "Comedy",
+      "1": "Funny",
+      "2": "Dark Humor",
+      "3": "Parody",
+      "4": "Memes"
+    },
     "subs": [],
     "is_free_game": false,
     "review_score": 0,
@@ -560,11 +1018,22 @@
   },
   "4285690": {
     "name": "Airport Security Sucks!",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4285690/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4285690/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/4285690/page_bg_generated_v6b.jpg",
-    "desc": "A chaotic multiplayer social deduction game set at airport security. Use your voice to argue, deceive, and smuggle your way through — or catch the ones who are.",
-    "tags": {"0": "Simulation", "1": "Multiplayer", "2": "Social Deduction", "3": "Voice Control", "4": "PvP"},
-    "subs": [{"discount_pct": 0, "price": 799}],
+    "desc": "A chaotic multiplayer social deduction game set at airport security. Use your voice to argue, deceive, and smuggle your way through \u2014 or catch the ones who are.",
+    "tags": {
+      "0": "Simulation",
+      "1": "Multiplayer",
+      "2": "Social Deduction",
+      "3": "Voice Control",
+      "4": "PvP"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 799
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -573,11 +1042,22 @@
   },
   "3976500": {
     "name": "The Spotter: Dig or Die",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3976500/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3976500/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3976500/page_bg_generated_v6b.jpg",
-    "desc": "Dig deep, build defenses, and survive the zombie hordes. A mining tower defense sandbox where every dig could be your salvation — or your grave.",
-    "tags": {"0": "Mining", "1": "Tower Defense", "2": "Sandbox", "3": "Zombies", "4": "Survival"},
-    "subs": [{"discount_pct": 0, "price": 1104}],
+    "desc": "Dig deep, build defenses, and survive the zombie hordes. A mining tower defense sandbox where every dig could be your salvation \u2014 or your grave.",
+    "tags": {
+      "0": "Mining",
+      "1": "Tower Defense",
+      "2": "Sandbox",
+      "3": "Zombies",
+      "4": "Survival"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1104
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -586,10 +1066,16 @@
   },
   "4317790": {
     "name": "Last Pirates: Die Together",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4317790/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4317790/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/4317790/page_bg_generated_v6b.jpg",
     "desc": "A co-op first-person horror game with pirates, laughs, and lots of dying. Sail, scavenge, and survive with friends in this chaotic Early Access horror comedy.",
-    "tags": {"0": "Online Co-Op", "1": "Horror", "2": "Funny", "3": "Co-op", "4": "First-Person"},
+    "tags": {
+      "0": "Online Co-Op",
+      "1": "Horror",
+      "2": "Funny",
+      "3": "Co-op",
+      "4": "First-Person"
+    },
     "subs": [],
     "is_free_game": false,
     "review_score": 0,
@@ -599,11 +1085,22 @@
   },
   "848450": {
     "name": "Subnautica: Below Zero",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/848450/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/848450/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/848450/page_bg_generated_v6b.jpg",
     "desc": "Return to Planet 4546B. Descend into a freezing underwater world filled with wonder and terror. Survive the alien ocean, uncover a conspiracy, and find a way home.",
-    "tags": {"0": "Open World Survival Craft", "1": "Survival", "2": "Underwater", "3": "Singleplayer", "4": "Open World"},
-    "subs": [{"discount_pct": 0, "price": 2999}],
+    "tags": {
+      "0": "Open World Survival Craft",
+      "1": "Survival",
+      "2": "Underwater",
+      "3": "Singleplayer",
+      "4": "Open World"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 2999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -612,11 +1109,22 @@
   },
   "2956680": {
     "name": "LORT",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2956680/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2956680/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2956680/page_bg_generated_v6b.jpg",
     "desc": "A co-op action roguelike shooter. Fight your way through procedurally generated chaos with friends in this fast-paced Early Access multiplayer brawler.",
-    "tags": {"0": "Online Co-Op", "1": "Action Roguelike", "2": "Multiplayer", "3": "Third-Person Shooter", "4": "Co-op"},
-    "subs": [{"discount_pct": 0, "price": 1499}],
+    "tags": {
+      "0": "Online Co-Op",
+      "1": "Action Roguelike",
+      "2": "Multiplayer",
+      "3": "Third-Person Shooter",
+      "4": "Co-op"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1499
+      }
+    ],
     "is_free_game": false,
     "review_score": 7,
     "review_desc": "Mostly Positive",
@@ -625,11 +1133,22 @@
   },
   "4187140": {
     "name": "Don't Panic! It is Just Turbulence",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4187140/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4187140/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/4187140/page_bg_generated_v6b.jpg",
     "desc": "A chaotic multiplayer game set on a turbulent plane ride. Keep calm, help (or hinder) your fellow passengers, and try not to make things worse. No guarantees.",
-    "tags": {"0": "Simulation", "1": "Multiplayer", "2": "Funny", "3": "Casual", "4": "Co-op"},
-    "subs": [{"discount_pct": 0, "price": 799}],
+    "tags": {
+      "0": "Simulation",
+      "1": "Multiplayer",
+      "2": "Funny",
+      "3": "Casual",
+      "4": "Co-op"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 799
+      }
+    ],
     "is_free_game": false,
     "review_score": 7,
     "review_desc": "Mostly Positive",
@@ -638,11 +1157,22 @@
   },
   "3834090": {
     "name": "YAPYAP",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3834090/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3834090/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3834090/page_bg_generated_v6b.jpg",
     "desc": "A chaotic online co-op horror game with magic and comedy. Cast spells, scream at your friends, and somehow survive the supernatural together.",
-    "tags": {"0": "Online Co-Op", "1": "Multiplayer", "2": "Horror", "3": "Magic", "4": "Comedy"},
-    "subs": [{"discount_pct": 0, "price": 999}],
+    "tags": {
+      "0": "Online Co-Op",
+      "1": "Multiplayer",
+      "2": "Horror",
+      "3": "Magic",
+      "4": "Comedy"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 999
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
@@ -651,11 +1181,22 @@
   },
   "3100370": {
     "name": "Black Jacket",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3100370/capsule_616x353.jpg",
+    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3100370/header.jpg",
     "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3100370/page_bg_generated_v6b.jpg",
     "desc": "A tense, stylish action thriller. Don the black jacket, make hard choices, and navigate a world where everyone has an agenda and no one can be trusted.",
-    "tags": {"0": "Action", "1": "Thriller", "2": "Indie", "3": "Singleplayer", "4": "Choices Matter"},
-    "subs": [{"discount_pct": 0, "price": 1499}],
+    "tags": {
+      "0": "Action",
+      "1": "Thriller",
+      "2": "Indie",
+      "3": "Singleplayer",
+      "4": "Choices Matter"
+    },
+    "subs": [
+      {
+        "discount_pct": 0,
+        "price": 1499
+      }
+    ],
     "is_free_game": false,
     "review_score": 8,
     "review_desc": "Very Positive",
