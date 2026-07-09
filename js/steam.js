@@ -7,15 +7,13 @@
 
 window.Steam = (function () {
 
-  // ---- Configuration ---- //
+   // ---- Configuration ---- //
   // Set your 64-bit Steam ID here (find it at steamid.io)
   const STEAM_ID = '76561199091154546';
-  
 
-  // CORS proxy options (uncomment one that works for you, or self-host)
-  // Option 1: Steam's own wishlist JSON endpoint (works if Steam allows it)
-  // Option 2: Use a free CORS proxy
-  const WISHLIST_URL = `https://store.steampowered.com/wishlist/id/lizzytries/`;
+
+  // Steam wishlist JSON data endpoint — uses numeric Steam ID for reliability
+  const WISHLIST_URL = `https://store.steampowered.com/wishlist/profiles/${STEAM_ID}/wishlistdata/?p=0&v=2`;
 
   // Fallback demo games if the Steam API is unavailable
   const DEMO_GAMES = [
