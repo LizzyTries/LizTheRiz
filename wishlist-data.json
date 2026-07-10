@@ -71,54 +71,6 @@
     "reviews_percent": 87,
     "release_string": "Aug 7, 2020"
   },
-  "582010": {
-    "name": "Monster Hunter: World",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/header.jpg",
-    "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/page_bg_generated_v6b.jpg",
-    "desc": "Welcome to a new world. Hunt monsters in a living, breathing ecosystem using everything at your disposal. Enjoy the ultimate hunting experience alone or with friends in seamless online co-op.",
-    "tags": {
-      "0": "Co-op",
-      "1": "Multiplayer",
-      "2": "Action",
-      "3": "Open World",
-      "4": "RPG"
-    },
-    "subs": [
-      {
-        "discount_pct": 0,
-        "price": 2999
-      }
-    ],
-    "is_free_game": false,
-    "review_score": 8,
-    "review_desc": "Very Positive",
-    "reviews_percent": 88,
-    "release_string": "Aug 8, 2018"
-  },
-  "2475490": {
-    "name": "Mouthwashing",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2475490/header.jpg",
-    "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/2475490/page_bg_generated_v6b.jpg",
-    "desc": "A stranded spaceship. A desperate crew. A captain who may have lost his mind. Mouthwashing is a gut-wrenching psychological horror game set aboard a doomed cargo vessel drifting through the void.",
-    "tags": {
-      "0": "Psychological Horror",
-      "1": "Horror",
-      "2": "Story Rich",
-      "3": "Atmospheric",
-      "4": "Retro"
-    },
-    "subs": [
-      {
-        "discount_pct": 0,
-        "price": 1299
-      }
-    ],
-    "is_free_game": false,
-    "review_score": 9,
-    "review_desc": "Overwhelmingly Positive",
-    "reviews_percent": 97,
-    "release_string": "Sep 26, 2024"
-  },
   "3008670": {
     "name": "Poppy Playtime \u2014 Chapter 4",
     "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3008670/header.jpg",
@@ -233,30 +185,6 @@
     "review_desc": "Very Positive",
     "reviews_percent": 84,
     "release_string": "Jul 29, 2025"
-  },
-  "1332010": {
-    "name": "Stray",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/header.jpg",
-    "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/page_bg_generated_v6b.jpg",
-    "desc": "Lost, alone and separated from family, a stray cat must untangle an ancient mystery to escape a long-forgotten cybercity and find the way home among the inhabitants of this decaying world.",
-    "tags": {
-      "0": "Cats",
-      "1": "Adventure",
-      "2": "Atmospheric",
-      "3": "Singleplayer",
-      "4": "Cyberpunk"
-    },
-    "subs": [
-      {
-        "discount_pct": 50,
-        "price": 1499
-      }
-    ],
-    "is_free_game": false,
-    "review_score": 9,
-    "review_desc": "Overwhelmingly Positive",
-    "reviews_percent": 96,
-    "release_string": "Jul 19, 2022"
   },
   "1929610": {
     "name": "Demonologist",
@@ -425,30 +353,6 @@
     "review_desc": "Very Positive",
     "reviews_percent": 82,
     "release_string": "Oct 28, 2013"
-  },
-  "896520": {
-    "name": "Stay Out of the House",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/896520/header.jpg",
-    "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/896520/page_bg_generated_v6b.jpg",
-    "desc": "A brutal retro-style first-person survival horror game. You've been kidnapped by a deranged butcher. Sneak, hide, and escape before you become his next meal.",
-    "tags": {
-      "0": "Horror",
-      "1": "Survival Horror",
-      "2": "First-Person",
-      "3": "Stealth",
-      "4": "Indie"
-    },
-    "subs": [
-      {
-        "discount_pct": 0,
-        "price": 999
-      }
-    ],
-    "is_free_game": false,
-    "review_score": 8,
-    "review_desc": "Very Positive",
-    "reviews_percent": 83,
-    "release_string": "Oct 13, 2022"
   },
   "2772990": {
     "name": "Ghost Janitors",
@@ -901,30 +805,6 @@
     "reviews_percent": 84,
     "release_string": "Sep 15, 2025"
   },
-  "3265230": {
-    "name": "Cursed Companions",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3265230/header.jpg",
-    "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/3265230/page_bg_generated_v6b.jpg",
-    "desc": "A funny co-op exploration game where cursed companions must work together to break their hex. Laugh your way through puzzles, chaos, and very questionable decisions.",
-    "tags": {
-      "0": "Funny",
-      "1": "Online Co-Op",
-      "2": "Comedy",
-      "3": "Multiplayer",
-      "4": "Exploration"
-    },
-    "subs": [
-      {
-        "discount_pct": 30,
-        "price": 629
-      }
-    ],
-    "is_free_game": false,
-    "review_score": 8,
-    "review_desc": "Very Positive",
-    "reviews_percent": 83,
-    "release_string": "Jul 9, 2026"
-  },
   "312520": {
     "name": "Rain World",
     "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/312520/header.jpg",
@@ -972,30 +852,6 @@
     "review_desc": "Very Positive",
     "reviews_percent": 87,
     "release_string": "Apr 23, 2021"
-  },
-  "967050": {
-    "name": "Pacify",
-    "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/967050/header.jpg",
-    "background": "https://cdn.cloudflare.steamstatic.com/steam/apps/967050/page_bg_generated_v6b.jpg",
-    "desc": "Investigate a haunted house and pacify the evil spirit inside. A co-op horror game where you must complete rituals before the ghost grows too powerful \u2014 or drags you into the darkness.",
-    "tags": {
-      "0": "Horror",
-      "1": "Online Co-Op",
-      "2": "Multiplayer",
-      "3": "Co-op",
-      "4": "Psychological Horror"
-    },
-    "subs": [
-      {
-        "discount_pct": 0,
-        "price": 499
-      }
-    ],
-    "is_free_game": false,
-    "review_score": 8,
-    "review_desc": "Very Positive",
-    "reviews_percent": 84,
-    "release_string": "Feb 22, 2019"
   },
   "4171850": {
     "name": "Trees Hate You",
